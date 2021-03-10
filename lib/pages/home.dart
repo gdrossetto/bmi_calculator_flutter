@@ -129,7 +129,7 @@ class _HomePageState extends State<HomePage> {
               visible: _textResult.isNotEmpty,
               child: Container(
                 child: Text(
-                  "Normal Weight",
+                  _textResult,
                   style: TextStyle(
                     fontSize: 32,
                     fontWeight: FontWeight.w400,
